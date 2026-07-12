@@ -1,10 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 body {
-    font-family: Arial, sans-serif;
     background: #f4f4f4;
 }
 header {
@@ -66,7 +64,6 @@ nav a {
 .card img {
     width: 100%;
     height: 180px;
-    object-fit: cover;
     border-radius: 10px;
 }
 .card h3 {
@@ -85,7 +82,6 @@ nav a {
     background: orange;
     color: white;
     border: none;
-    cursor: pointer;
 }
 footer {
     background: #222;
@@ -100,35 +96,4 @@ footer {
     color: white;
     margin: 0 8px;
     font-size: 20px;
-}
-@media (max-width: 768px) {
-
-    header {
-        flex-direction: column;
-    }
-
-    .hero {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .text {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .image img {
-        width: 220px;
-    }
-
-    .cards {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .contact input {
-        width: 90%;
-        margin-bottom: 10px;
-    }
-
 }
